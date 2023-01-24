@@ -1,0 +1,491 @@
+
+
+
+
+/*-- Animaciones --*/
+.delay-1 {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+.delay-2 {
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* -- Index --*/
+
+.index {
+	background: #012D5E;
+	align-content: center;
+	margin-top: 100px;
+}
+
+.container {
+	width: 100%;
+}
+
+.img-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.img-logo img {
+	width: 419px;
+	height: 379px;
+}
+
+.textos-landing {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+}
+
+.menu-landing {
+	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+}
+
+.menu-landing a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+	margin: 10px;
+}
+
+.menu-landing a:hover {
+	border-bottom: 1px solid rgba(255,255,255, 1.5);
+}
+
+/* -- Acerca De -- */
+
+header .container{
+	margin-top: 0px;
+	max-width: 100%;
+}
+
+header .container .color {
+	background: #EFF0FD;
+}
+
+header .logo a img {
+	position: absolute;
+	top: 25%;
+}
+
+header .cotizacion {
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+	text-align: right;
+	line-height: 2.5em;
+}
+
+header .cotizacion a {
+	border-radius: 5%;
+	width: 10em;
+	height: 3em;
+	text-align: center;
+	line-height: 2.8em;
+	display: inline-block;
+	background: #FEFF05;
+	color: #000;
+	margin-left: 1.25em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+header .cotizacion a:hover {
+	text-decoration: none;
+	background: #464646;
+	color: #fff;
+}
+
+header .menu {
+	background: #012D5E;
+	margin-bottom: 0;
+	max-width: 100%;
+}
+
+header .menu ul {
+	list-style: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+header .menu ul li {
+	float: left;
+	display: inline-block;
+}
+
+header .menu ul li a {
+	color: #fff;
+	display: inline-block;
+	padding: 1em 1.25em;
+	font-size: .87em;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+header .menu ul li a:hover {
+	text-decoration: none;
+	background: #fff;
+	color: #000;
+}
+
+footer .linea-azul {
+	background: #012D5E;
+	max-width: 100%;
+	height: 35px;
+}
+footer p {
+  text-align: center;
+  margin-bottom: 1px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#acercadecont {
+	margin-top: 25px;
+}
+
+.container .main .titulo {
+	text-align: center;
+	font-weight: bold;
+}
+
+.titulo {
+	text-align: center;
+	font-weight: bold;
+}
+
+.titulo-seccion {
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 4px solid #012D5E;
+}
+
+#contactocont {
+	margin-top: 25px;
+}
+
+main .telefono,
+main .redes,
+main .horario {
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+}
+
+main #secciones {
+	margin-top: 20px;
+	text-align: center;
+	padding-top: 25px;
+	margin-bottom: 30px;
+}
+
+
+main .container .telefono .contenidoT  {
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+main .container .horario p {
+	margin-bottom: 2.5px;
+}
+
+main .container .redes a p {
+	margin-top: 22px;
+}
+
+main .container .ubicacion .correo {
+	color: blue;
+}
+
+main .container .ubicacion {
+	margin-bottom: 30px;
+}
+
+.formularios{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.formularios input[type="text"]:focus {
+	border: 2px solid #212529;
+}
+
+.formularios textarea:focus {
+	border: 2px solid #012D5E;
+}
+
+.formularios .btn {
+	width: 100%;
+	text-align: center;
+	background: #012D5E;
+	color: #fff;
+	border: none;
+	display: block;
+	padding-top: 15px 10px;
+	cursor: pointer;
+	border-radius: 3 3 3 3 ;
+
+}
+
+.formularios .btn:hover {
+	width: 100%;
+	text-align: center;
+	background: #012854;
+	color: #fff;
+	border: none;
+	display: block;
+	padding-top: 15px 10px;
+	cursor: pointer;
+	border-radius: 3 3 3 3 ;
+
+}
+
+.main {
+	margin-top: 20px;
+}
+.titulo-seccion {
+  margin-top:  15px;
+}  
+
+.main .titulo-seccion > div {
+  padding: 0; 
+}
+
+.main .single-post {
+  margin-bottom: 1.25em; 
+}
+
+.main .single-post .post {
+  padding: 0; 
+}
+
+.main .single-post .post .contenedor {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); 
+}
+
+.main .single-post .post .thumb img {
+  vertical-align: top;
+  width: 100%;
+  height: auto; 
+}
+    
+.main .single-post .post .info {
+  padding: 1.25em; 
+}
+      
+.main .single-post .post .info .titulo {
+  line-height: 1.125em;
+  margin-bottom: 1.25em; 
+}
+        
+.main .single-post .post .info .titulo a {
+  font-size: 1.125em;
+  color: #3b3b3b; 
+}
+      
+.main .single-post .post .info .fecha {
+  color: #909090;
+  font-size: 0.875em;
+  margin-bottom: 1.25em; 
+}
+      
+.main .single-post .post .info .texto {
+  color: #292929;
+  font-size: 1em;
+  line-height: 1.75em; 
+}
+        
+.main .single-post .post .info .texto p {
+  margin-bottom: 1em; 
+}
+
+.main .single-post .post .info .categorias {
+  margin-bottom: 1.25em; 
+}
+
+.main .single-post .post .info .categorias ul {
+  list-style: none; 
+}
+
+.main .single-post .post .info .categorias ul li {
+  display: inline-block; 
+}
+
+.main .single-post .post .info .categorias a {
+  color: #909090;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 1.25em; 
+}
+
+.main .single-post .post .info .categorias a:hover {
+  color: #012854;
+  text-decoration: none; 
+}
+
+.main .posts .post {
+  margin-bottom: 1.875em; 
+}
+
+.main .posts .post .contenedor {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); 
+}
+
+.main .posts .post:nth-child(2n+1) {
+  padding-left: 0; 
+}
+
+.main .posts .post:nth-child(2n) {
+  padding-right: 0; 
+}
+
+.main .posts .post .thumb img {
+  vertical-align: top;
+  width: 100%;
+  height: auto; 
+}
+
+.main .posts .post .info {
+  padding: 1.25em; 
+}
+
+.main .posts .post .info .titulo {
+  line-height: 1.125em;
+  margin-bottom: 1.25em;
+  font-size: 1.125em; 
+}
+
+.main .posts .post .info .titulo a {
+  color: #3b3b3b; 
+}
+
+.main .posts .post .info .fecha {
+  color: #909090;
+  font-size: 0.875em;
+  margin-bottom: 1.25em; 
+}
+
+.main .posts .post .info .extracto {
+  color: #292929;
+  font-size: 1em;
+  height: 8.125em;
+  max-height: 8.125em;
+  line-height: 1.75em;
+  margin-bottom: 1.25em;
+  overflow: hidden; 
+}
+
+.main .posts .post .info .extracto:hover {
+  overflow: auto; 
+}
+
+.main .posts .post .info .categorias ul {
+  list-style: none; 
+}
+
+.main .posts .post .info .categorias ul li {
+  display: inline-block; 
+}
+
+.main .posts .post .info .categorias a {
+  color: #909090;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 1.25em; 
+}
+
+.main .posts .post .info .categorias a:hover {
+  color: #012854;
+  text-decoration: none; 
+}
+
+.main .paginacion > div {
+  padding: 0; 
+}
+
+.main .paginacion ul {
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 1.25em;
+  font-size: 1em; 
+}
+
+.main .paginacion ul li {
+  float: left;
+  background: #011D3D;
+  color: #fff;
+  margin-right: 0.62em;
+  font-size: 1.125em;
+  line-height: 1.125em; 
+}
+
+.main .paginacion ul li.disabled {
+  padding: 0.62em 0.9375em;
+  font-size: 1.125em;
+  line-height: 1.125em; 
+}
+
+.main .paginacion ul li a {
+  background: #012D5E;
+  color: #fff;
+  line-height: 1.125em;
+  display: inline-block;
+  padding: 0.62em 0.9375em; 
+}
+
+.main .paginacion ul li a:hover {
+  background: #012854;
+  text-decoration: none; 
+}
+
+.main .paginacion .wp-pagenavi {
+  margin-bottom: 1.25em; 
+}
+
+.main .paginacion .wp-pagenavi .pages,
+.main .paginacion .wp-pagenavi span {
+  background: #011D3D;
+  color: #fff;
+  margin-right: 0.62em;
+  font-size: 1.125em;
+  line-height: 1.125em;
+  padding: 0.62em 0.9375em; 
+}
+
+.main .paginacion .wp-pagenavi a {
+  background: #5f6ad4;
+  color: #fff;
+  font-size: 1.125em;
+  display: inline-block;
+  padding: 0.62em 0.9375em;
+  margin-right: 0.62em; 
+}
+
+.main .paginacion .wp-pagenavi a:hover {
+  background: #01234A;
+  text-decoration: none; 
+}
